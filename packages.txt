@@ -1,0 +1,2 @@
+npm install react-navigation
+expo install react-native-gesture-handler react-native-reanimated

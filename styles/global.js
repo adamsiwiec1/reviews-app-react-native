@@ -57,3 +57,11 @@ export const globalStyles = StyleSheet.create({
         color: '#333'
     },
 });
+
+export const navStyles = StyleSheet.create({
+    navButton: {
+        innerWidth: 20,
+        outerWidth: 20,
+        marginVertical: 20,
+    }
+});

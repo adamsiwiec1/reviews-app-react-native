@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import Home from './screens/home';
-import About from './screens/about';
-import Forum from './screens/forum';
-import Post from './screens/post';
-import {View, Text, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading';
 import Navigator from './routes/homeStack'
@@ -27,14 +23,8 @@ export default function App() {
 
   if(fontsLoaded){
     return (
-      // <View style={styles.container}>
-      //   <Home />
-      //   <About />
-      //   <Forum />
-      //   <Post />
-      // </View>
-    <Navigator/>
-    );
+        <Navigator/>
+  );
   } else {
     return (
       <AppLoading 

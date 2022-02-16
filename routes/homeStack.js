@@ -33,6 +33,6 @@ const HomeStack = createStackNavigator({
     Post: {
         screen: Post
     },
-})
+});
 
 export default createAppContainer(HomeStack);
